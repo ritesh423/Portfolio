@@ -24,7 +24,7 @@ class Home extends Component {
         {this.state.showModal && <Modal closeModal={this.closeModal} />}
         <div className="header-text">
           <h1>Welcome to my portfolio!</h1>
-          <p>This is Ritesg, A Front End Dev</p>
+          <p>This is Ritesh, A Front End Dev</p>
         </div>
         <div className="head-btns">
           <Link to="/about" className="btn btn-white">
