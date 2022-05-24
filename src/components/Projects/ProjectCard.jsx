@@ -5,13 +5,12 @@ const ProjectCard = ({
   projectName,
   projectDescription,
   imageUrl,
-  videoUrl,
-  projectUrl,
+  repoUrl,
 }) => {
   return (
     <div className="project-card">
       <div className="image-container">
-        <a href={projectUrl} className="project-external-link">
+        <a className="project-external-link">
           <img src={imageUrl} alt="project" className="project-image" />
         </a>
       </div>
@@ -19,8 +18,13 @@ const ProjectCard = ({
       <div className="project-details-container">
         <h2 className="project-heading">{projectName}</h2>
         <p className="project-details">{projectDescription}</p>
-        <a href={videoUrl} className="project-yt-link">
-          Watch More!
+        <a
+          href={repoUrl}
+          className="project-yt-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Check Out!
         </a>
       </div>
     </div>

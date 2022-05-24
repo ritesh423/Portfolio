@@ -19,7 +19,7 @@ const Projects = () => {
             projectName,
             projectDescription,
             imageUrl,
-            videoUrl,
+            repoUrl,
             projectUrl,
           }) => {
             return (
@@ -28,7 +28,7 @@ const Projects = () => {
                 projectDescription={projectDescription}
                 projectUrl={projectUrl}
                 imageUrl={imageUrl}
-                videoUrl={videoUrl}
+                repoUrl={repoUrl}
               />
             );
           }

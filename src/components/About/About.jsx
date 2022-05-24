@@ -43,8 +43,11 @@ const About = () => {
           {/* Sub section 3 */}
           <h3 className="about-sub-head">Web Dev</h3>
           <p className="about-details">
-            Want a Frontend landing page with awesome designs and animation{" "}
-            <a className="about-link-element" href="riteshsingh.py@gmail.com">
+            Want a landing page with awesome designs and animation{""}
+            <a
+              className="about-link-element"
+              href="mailto:riteshsingh.py@gmail.com"
+            >
               Mail Me
             </a>
           </p>
